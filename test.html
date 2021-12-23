@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>test</title>
+</head>
+<body>
+	<form>
+		<input type="text" name="text" id="text">
+		<button onclick="test()" id="button"></button>
+	</form>
+	<script type="text/javascript">
+		const input = document.getElementById('text');
+		const button = document.getElementById('button');
+		function test() {
+			console.log(input.value);
+		}
+	</script>
+</body>
+</html>
